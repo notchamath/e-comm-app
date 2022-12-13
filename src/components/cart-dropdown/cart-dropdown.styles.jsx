@@ -21,7 +21,6 @@ export const CartDropdownContainer = styled.div`
   margin-top: auto;
  }
 `
-
 export const CartItems = styled.div`
   height: 240px;
   display: flex;

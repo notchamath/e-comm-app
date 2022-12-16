@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {Provider} from 'react-redux';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -7,8 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { CategoriesProvider } from './contexts/categories.context';
 import { CartProvider } from './contexts/cart.context';
-import {Provider} from 'react-redux';
-import {store} from './store/store'
+import {store} from './store/store';
 
 import './index.css';
 
